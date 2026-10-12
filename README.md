@@ -77,4 +77,4 @@ Failing tests should be reviewed alongside the documented bug reports to disting
 
 ## Author
 
-QA Manual & Automation Testing Portfolio Project.
+Developed as part of a QA test assignment for WebbyLab, including manual testing and Cypress test automation.
