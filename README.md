@@ -39,17 +39,21 @@ Some automated tests are expected to fail because they reproduce existing applic
 
 ## Project Structure
 
+## Project Structure
+
+```text
 webbylab-cypress-tests/
 ├── cypress/
-│ ├── e2e/
-│ │ └── catalog.cy.js
-│ ├── fixtures/
-│ └── support/
+│   ├── e2e/
+│   │   └── catalog.cy.js
+│   ├── fixtures/
+│   └── support/
 ├── cypress.config.js
 ├── package.json
 ├── package-lock.json
 ├── .gitignore
 └── README.md
+```
 
 ## How to Run Tests
 
@@ -59,15 +63,21 @@ webbylab-cypress-tests/
 2. Make sure the application is available at `http://localhost:3000`.
 3. Install the project dependencies:
 
+```text
 npm install
+```
 
 4. Open the Cypress Test Runner:
 
+```text
 npm run cy:open
+```
 
 5. Or run the tests in headless mode:
 
+```text
 npm test
+```
 
 ## Test Results
 
